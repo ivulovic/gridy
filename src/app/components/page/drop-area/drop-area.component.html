@@ -1,0 +1,7 @@
+<div id="drop-area-{{id}}"
+     class="drop-area col-xs-12 col-md-{{size}} col-lg-{{size}}"
+     (drop)="onDrop($event)"
+     (dragleave)="onDragEnd($event)"
+     (dragover)="onDragOver($event)">
+  <ng-content></ng-content>
+</div>
